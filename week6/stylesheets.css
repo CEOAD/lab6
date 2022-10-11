@@ -17,8 +17,9 @@ li a:visited{
 li a:hover {
     color: pink;
 }
-li::first-letter{
-    font: bold 120%;
+ul :first-child::first-letter{
+    font-weight: bold;
+    font-size: 120%;
 }
 a[title="BCIT homepage"]{
     background-color: yellow;
