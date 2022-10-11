@@ -1,6 +1,14 @@
 h1 {
-  color: grey
+  color: #800080
+
 }
-* {
-    background-color: beige;
+.first {
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: #f5f5dc;
+}
+nav {
+  background-color: lightblue;
+  text-align: center;
 }
