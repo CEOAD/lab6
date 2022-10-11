@@ -6,4 +6,5 @@ h2 + p {
 }
 .list > li {
     border-bottom: 1px solid grey;
+    list-style-type: none;
 }
