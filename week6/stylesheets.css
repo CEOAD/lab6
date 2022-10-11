@@ -1,4 +1,4 @@
-.container h2{
+/* .container h2{
     font-style: italic;
 }
 h2 + p {
@@ -7,4 +7,19 @@ h2 + p {
 .list > li {
     border-bottom: 1px solid grey;
     list-style-type: none;
+} */
+li a:link{
+    color: green;
+}
+li a:visited{
+    color: red;
+}
+li a:hover {
+    color: pink;
+}
+li::first-letter{
+    font: bold 120%;
+}
+a[title="BCIT homepage"]{
+    background-color: yellow;
 }
